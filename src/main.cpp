@@ -14,7 +14,7 @@ void setup()
 void loop()
 {
     printf("\e[1;1H\e[2J");
-    printf("\e[2;33;44m");  
+    printf("\e[2;32;44m");  
     fflush(stdout);
     printf("\e[12;35H");
     printf("Hello World");
